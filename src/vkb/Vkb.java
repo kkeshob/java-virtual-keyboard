@@ -5,6 +5,8 @@
  */
 package vkb;
 
+import kb;
+
 /**
  *
  * @author Madhab
@@ -15,7 +17,8 @@ public class Vkb {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        kb a = new kb();
+        a.setVisible(true);
     }
     
 }
